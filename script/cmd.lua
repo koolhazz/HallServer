@@ -1,0 +1,16 @@
+--[[
+	define protocol command
+]]--
+
+
+
+T_CLIENT_CMD = {
+	CNT_CMD_USER_LOGIN = 	0x0116, 
+	CNT_CMD_USER_LOGOUT = 	0x0102,	
+}
+
+T_SERVER_CMD = {
+	SVR_CMD_LOGIN_SUCCESS = 	0x0201,
+	SVR_CMD_LOGIN_ERROR = 		0x0202,
+	SVR_CMD_KICK_OUT = 			0x0203,
+}
